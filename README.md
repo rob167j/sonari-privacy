@@ -1,64 +1,140 @@
-# Astro Starter Kit: Blog
+ Sonari Privacy Policy (iOS + AI Ready Version)
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/astro-blog-starter-template)
+Last Updated: [Insert Date]
+App Name: Sonari
+Developer: [Your Name / ANQ Media LLC (if you want to use it)]
 
-![Astro Template Preview](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
+⸻
 
-<!-- dash-content-start -->
+1. Introduction
 
-Create a blog with Astro and deploy it on Cloudflare Workers as a [static website](https://developers.cloudflare.com/workers/static-assets/).
+Sonari (“we,” “our,” or “us”) respects your privacy and is committed to protecting your personal information.
 
-Features:
+This Privacy Policy explains how we collect, use, and safeguard your information when you use the Sonari mobile application (“App”).
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
-- ✅ Built-in Observability logging
+By using Sonari, you agree to this policy.
 
-<!-- dash-content-end -->
+⸻
 
-## Getting Started
+2. Information We Collect
 
-Outside of this repo, you can start a new project with this template using [C3](https://developers.cloudflare.com/pages/get-started/c3/) (the `create-cloudflare` CLI):
+a. User Input Data
 
-```bash
-npm create cloudflare@latest -- --template=cloudflare/templates/astro-blog-starter-template
-```
+We collect information you provide directly, including:
 
-A live public deployment of this template is available at [https://astro-blog-starter-template.templates.workers.dev](https://astro-blog-starter-template.templates.workers.dev)
+* Messages, prompts, or content entered into the app
+* Feedback or support requests
 
-## 🚀 Project Structure
+⸻
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+b. Device & Usage Data
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+We may collect:
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+* Device type (iPhone, iOS version)
+* App usage data (features used, session activity)
+* Crash logs and diagnostics
 
-Any static assets, like images, can be placed in the `public/` directory.
+⸻
 
-## 🧞 Commands
+c. AI Interaction Data
 
-All commands are run from the root of the project, from a terminal:
+Sonari uses artificial intelligence to generate responses.
 
-| Command                           | Action                                           |
-| :-------------------------------- | :----------------------------------------------- |
-| `npm install`                     | Installs dependencies                            |
-| `npm run dev`                     | Starts local dev server at `localhost:4321`      |
-| `npm run build`                   | Build your production site to `./dist/`          |
-| `npm run preview`                 | Preview your build locally, before deploying     |
-| `npm run astro ...`               | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help`         | Get help using the Astro CLI                     |
-| `npm run build && npm run deploy` | Deploy your production site to Cloudflare        |
-| `npm wrangler tail`               | View real-time logs for all Workers              |
+* Your inputs may be processed by AI systems
+* Conversations may be temporarily stored to improve performance
+* Some data may be processed by third-party AI providers
 
-## 👀 Want to learn more?
+⸻
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+3. How We Use Your Information
 
-## Credit
+We use your data to:
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+* Provide AI-powered responses
+* Improve app functionality and user experience
+* Fix bugs and monitor performance
+* Develop new features
+
+⸻
+
+4. Third-Party Services
+
+Sonari may use third-party services, including:
+
+* AI providers (e.g., OpenAI or similar systems)
+* Hosting and infrastructure providers
+* Analytics tools (if added later)
+
+These services may process data according to their own privacy policies.
+
+⸻
+
+5. Data Storage & Security
+
+We implement reasonable safeguards to protect your data.
+
+Data may be stored:
+
+* On secure servers
+* Through cloud infrastructure (e.g., services routed via Cloudflare)
+
+We do not guarantee absolute security.
+
+⸻
+
+6. Data Sharing
+
+We do not sell your personal data.
+
+We only share data when necessary:
+
+* To operate the app (AI processing, hosting)
+* To comply with legal obligations
+* To prevent abuse or misuse
+
+⸻
+
+7. Data Retention
+
+We retain data only as long as necessary to:
+
+* Provide the service
+* Improve the app
+* Meet legal requirements
+
+You may request deletion of your data.
+
+⸻
+
+8. Your Rights
+
+Depending on your region, you may:
+
+* Request access to your data
+* Request correction or deletion
+* Withdraw consent
+
+Contact: [your email here]
+
+⸻
+
+9. Children’s Privacy
+
+Sonari is not intended for children under 13.
+We do not knowingly collect data from children.
+
+⸻
+
+10. Changes to This Policy
+
+We may update this Privacy Policy. Updates will be posted with a revised date.
+
+⸻
+
+11. Contact
+
+For questions, contact:
+rpaganjr8@gmail.com
+
+⸻
