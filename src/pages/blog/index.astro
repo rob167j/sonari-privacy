@@ -1,111 +1,138 @@
----
-import BaseHead from '../../components/BaseHead.astro';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
-import { getCollection } from 'astro:content';
-import FormattedDate from '../../components/FormattedDate.astro';
+Sonari Privacy Policy (iOS + AI Ready Version)
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
----
+Last Updated:4.15.2026
+App Name: Sonari
+Developer:ANQ Media LLC
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 960px;
-			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
-				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
-			}
-			ul li img {
-				margin-bottom: 0.5rem;
-				border-radius: 12px;
-			}
-			ul li a {
-				display: block;
-			}
-			.title {
-				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1;
-			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
-			}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<main>
-			<section>
-				<ul>
-					{
-						posts.map((post) => (
-							<li>
-								<a href={`/blog/${post.id}/`}>
-									<img width={720} height={360} src={post.data.heroImage} alt="" />
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</section>
-		</main>
-		<Footer />
-	</body>
-</html>
+⸻
+
+1. Introduction
+
+Sonari (“we,” “our,” or “us”) respects your privacy and is committed to protecting your personal information.
+
+This Privacy Policy explains how we collect, use, and safeguard your information when you use the Sonari mobile application (“App”).
+
+By using Sonari, you agree to this policy.
+
+⸻
+
+2. Information We Collect
+
+a. User Input Data
+
+We collect information you provide directly, including:
+
+* Messages, prompts, or content entered into the app
+* Feedback or support requests
+
+⸻
+
+b. Device & Usage Data
+
+We may collect:
+
+* Device type (iPhone, iOS version)
+* App usage data (features used, session activity)
+* Crash logs and diagnostics
+
+⸻
+
+c. AI Interaction Data
+
+Sonari uses artificial intelligence to generate responses.
+
+* Your inputs may be processed by AI systems
+* Conversations may be temporarily stored to improve performance
+* Some data may be processed by third-party AI providers
+
+⸻
+
+3. How We Use Your Information
+
+We use your data to:
+
+* Provide AI-powered responses
+* Improve app functionality and user experience
+* Fix bugs and monitor performance
+* Develop new features
+
+⸻
+
+4. Third-Party Services
+
+Sonari may use third-party services, including:
+
+* AI providers (e.g., OpenAI or similar systems)
+* Hosting and infrastructure providers
+* Analytics tools (if added later)
+
+These services may process data according to their own privacy policies.
+
+⸻
+
+5. Data Storage & Security
+
+We implement reasonable safeguards to protect your data.
+
+Data may be stored:
+
+* On secure servers
+* Through cloud infrastructure (e.g., services routed via Cloudflare)
+
+We do not guarantee absolute security.
+
+⸻
+
+6. Data Sharing
+
+We do not sell your personal data.
+
+We only share data when necessary:
+
+* To operate the app (AI processing, hosting)
+* To comply with legal obligations
+* To prevent abuse or misuse
+
+⸻
+
+7. Data Retention
+
+We retain data only as long as necessary to:
+
+* Provide the service
+* Improve the app
+* Meet legal requirements
+
+You may request deletion of your data.
+
+⸻
+
+8. Your Rights
+
+Depending on your region, you may:
+
+* Request access to your data
+* Request correction or deletion
+* Withdraw consent
+
+Contact: [your email here]
+
+⸻
+
+9. Children’s Privacy
+
+Sonari is not intended for children under 13.
+We do not knowingly collect data from children.
+
+⸻
+
+10. Changes to This Policy
+
+We may update this Privacy Policy. Updates will be posted with a revised date.
+
+⸻
+
+11. Contact
+
+For questions, contact
+rpaganjr8@gmail.com
